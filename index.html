@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Law Edvisor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Legal Education for All</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#basic">Basic Rights</a></li>
+        <li><a href="#search">Search Laws</a></li>
+        <li><a href="#resources">Additional Resources</a></li>
+        <li><a href="#about">About Us</a></li> <!-- Added About Us section -->
+        <li><a href="#contact">Contact</a></li> <!-- Added Contact section -->
+      </ul>
+    </div>
+  </nav>
+  <section id="basic" class="section">
+    <div class="container">
+      <h2>Basic Rights, Duties, and Responsibilities</h2>
+      <p>Here you can find information about your basic rights, duties, and responsibilities as a citizen.</p>
+      <!-- Add content about rights, duties, and responsibilities here -->
+    </div>
+  </section>
+  <section id="search" class="section">
+    <div class="container">
+      <h2>Search Laws</h2>
+      <p>Enter your issue below to find relevant laws:</p>
+      <input type="text" id="issue" placeholder="Enter your issue">
+      <div id="suggestions"></div> <!-- Added autocomplete suggestions -->
+      <button onclick="searchLaws()">Search</button>
+      <div id="laws"></div>
+    </div>
+  </section>
+  <section id="resources" class="section">
+    <div class="container">
+      <h2>Additional Resources</h2>
+      <p>Explore more legal resources and information:</p>
+      <ul>
+        <li><a href="#">Full-text Legal Documents</a></li> <!-- Added link to full-text legal documents -->
+        <li><a href="#">External Legal Resources</a></li> <!-- Added link to external legal resources -->
+      </ul>
+    </div>
+  </section>
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Learn more about our organization and mission.</p>
+      <!-- Add content about the organization -->
+    </div>
+  </section>
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Get in touch with us for inquiries or feedback.</p>
+      <!-- Add contact form or contact information -->
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; Law Edvisor</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
